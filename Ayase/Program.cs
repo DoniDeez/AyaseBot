@@ -6,8 +6,8 @@ namespace Ayase
     {
         public static void Main()
         {   
+            Unity.RegisterTypes();
             Console.WriteLine("Hello, Discord!");
-
         }
     }
 }
