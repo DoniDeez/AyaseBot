@@ -6,7 +6,7 @@ namespace Ayase
     {
         public static void Main()
         {   
-            Console.WriteLine("Hello Discord!");
+            Console.WriteLine("Hello, Discord!");
 
         }
     }
