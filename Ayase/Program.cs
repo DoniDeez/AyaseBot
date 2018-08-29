@@ -16,6 +16,10 @@ namespace Ayase
                 Token = "ABC",
                 SocketConfig = SocketConfig.GetDefault()
             };
+
+            var connection = Unity.Resolve<Connection>();
+
+            Console.ReadKey();
         }
     }
 }
