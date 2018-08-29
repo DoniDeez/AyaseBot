@@ -1,4 +1,6 @@
 ﻿using System;
+using Ayase.Discord;
+using Ayase.Discord.Entities;
 
 namespace Ayase
 {
@@ -8,6 +10,12 @@ namespace Ayase
         {   
             Unity.RegisterTypes();
             Console.WriteLine("Hello, Discord!");
+
+            var discordBotConfig = new AyaseConfig
+            {
+                Token = "ABC",
+                SocketConfig = SocketConfig.GetDefault()
+            };
         }
     }
 }
